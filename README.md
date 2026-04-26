@@ -12,14 +12,14 @@ py -3.12 -m venv tekne
 
 To activate this environment, use:
 ```
-tekne\Scripts\actívate
+.\tekne\Scripts\Activate.ps1
 ```
 
 To install required libraries:
 
 ```
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r .\environment\requirements.txt
 ```
 
 ## Folders
